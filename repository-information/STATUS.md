@@ -4,7 +4,7 @@
 
 | Page | File | Version | Live URL | Status |
 |------|------|---------|----------|--------|
-| Landing Page | `live-site-pages/index.html` | v01.01w | [View](https://ShadowAISolutions.github.io/3/) | Active |
+| Landing Page | `live-site-pages/index.html` | v01.02w | [View](https://ShadowAISolutions.github.io/3/) | Active |
 
 ## GAS Projects
 
