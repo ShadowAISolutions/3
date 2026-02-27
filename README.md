@@ -1,74 +1,14 @@
-# ​‌‌‌‌‌‌‌​​‌‌‌‌‌​Auto Update HTML Template
+# ​‌‌‌‌‌‌‌​​‌‌‌‌‌​ReadMe - 3
 
 A GitHub Pages deployment framework with automatic version polling, auto-refresh, and Google Apps Script (GAS) embedding support.
 
-Last updated: `2026-02-27 02:33:45 PM EST`
+Last updated: `2026-02-27 02:41:15 PM EST`
 
-You are currently using the **htmltemplateautoupdate** developed by **ShadowAISolutions**<br>
-Initialize your repository and Claude will update the live site link and QR code here
-
-**This Template Repository's URL:** [github.com/ShadowAISolutions/htmltemplateautoupdate](https://github.com/ShadowAISolutions/htmltemplateautoupdate)
+**Live site:** [ShadowAISolutions.github.io/3](https://ShadowAISolutions.github.io/3)
 
 <p align="center">
-  <img src="repository-information/readme-qr-code.png" alt="QR code to template repo" width="200">
+  <img src="repository-information/readme-qr-code.png" alt="QR code to live site" width="200">
 </p>
-
-## Copy This Repository
-
-### Method 1: Use This Template (Recommended)
-
-> <sub>**Tip:** Link below navigates away from this page. `Shift + click` (or `Right-click` → `Open link in new window`) to keep this ReadMe visible while you work.</sub>
-
-1. Click the green **Use this template** button at the top of this page, or go to [**Create from template**](https://github.com/new?template_name=htmltemplateautoupdate&template_owner=ShadowAISolutions)
-2. Fill in the **Repository name** field with a descriptive name of your choice
-3. Click **Create repository**
-
-### Method 2: GitHub Importer
-
-1. Click the `⧉` button below to copy this template's URL:
-
-```
-https://github.com/ShadowAISolutions/htmltemplateautoupdate
-```
-
-   > <sub>**Tip:** Link below navigates away from this page. `Shift + click` (or `Right-click` → `Open link in new window`) to keep this ReadMe visible while you work.</sub>
-
-2. Go to [**GitHub Importer**](https://github.com/new/import) and paste what you just copied into the `The URL for your source repository *` field
-3. Fill in the `Repository name *` field with a descriptive name of your choice
-4. Click the green `Begin import` button
-
-## Initialize This Template
-
-> **Important:** The links in steps 1 and 2 below point to the settings of **whichever repo you are viewing this page from**. Make sure you are using the links below while on `YOUR OWN COPY` of the repository, not on the original template repo — otherwise the links will lead to a 404 page.
-
-> <sub>**Tip:** Links below navigate away from this page. `Right-click` → `Open link in new window` to keep this ReadMe visible while you work.</sub>
-
-### 1. Enable GitHub Pages
-
-Go to your repository's [**Pages settings**](../../settings/pages) and configure:
-
-- **Source**: Select **GitHub Actions** (not "Deploy from a branch")
-
-  This allows the included workflow to deploy your `live-site-pages/` directory automatically.
-
-### 2. Configure the `github-pages` Environment
-
-Go to your repository's [**Environments settings**](../../settings/environments), click into the `github-pages` environment, and:
-
-- Select the dropdown next to the **Deployment branches and tags** heading and choose **No restriction**
-
-### 3. Run Claude Code and Type `initialize`
-
-> The initialization process takes approximately **~5 minutes** from when you send `initialize` to when Claude has finished all its actions.
-
-Open the repo with Claude Code and type **`initialize`** as your first prompt. Claude will automatically:
-
-&emsp;Detect your new repo name and org<br>
-&emsp;Update all references throughout the codebase<br>
-&emsp;Replace the placeholder text above with your live site link<br>
-&emsp;Commit and push — triggering the workflow to deploy to GitHub Pages
-
-Your site will be live at `https://<your-org>.github.io/<your-repo>/`
 
 ## How It Works
 
@@ -90,7 +30,7 @@ Google Apps Script projects are embedded as iframes in GitHub Pages. The framewo
 ## Project Structure
 
 ```
-htmltemplateautoupdate/
+3/
 ├── live-site-pages/             # Deployed to GitHub Pages
 │   ├── index.html              # Live landing page
 │   ├── index.version.txt       # Version file for auto-refresh

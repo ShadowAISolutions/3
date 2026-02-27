@@ -91,6 +91,7 @@ on:
   push:
     branches:
       - 'claude/**'
+      - 'main'
   workflow_dispatch:
 
 permissions:
